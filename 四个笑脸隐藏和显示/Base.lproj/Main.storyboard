@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" tag="200" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fuU-m0-tyc">
+                                <rect key="frame" x="65" y="268" width="51" height="31"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="valueChanged" id="WFe-jn-4UB"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" tag="202" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uK7-h0-7WZ">
+                                <rect key="frame" x="188" y="268" width="51" height="31"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="valueChanged" id="XM3-P4-0X1"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" tag="203" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ivx-f7-F3e">
+                                <rect key="frame" x="260" y="268" width="51" height="31"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="valueChanged" id="1n8-QU-YU4"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" tag="201" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECa-9l-1ln">
+                                <rect key="frame" x="122" y="268" width="51" height="31"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="valueChanged" id="KXl-KA-ufr"/>
+                                </connections>
+                            </switch>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="IQ2-k4-jbd">
+                                <rect key="frame" x="87" y="174" width="200" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="like-1-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rBb-GT-Pf6">
+                                        <rect key="frame" x="0.0" y="5" width="50" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="2Op-MN-auq"/>
+                                            <constraint firstAttribute="height" constant="40" id="vJW-fr-NMz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="naruto.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Zt-k8-MpF">
+                                        <rect key="frame" x="50" y="5" width="50" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="8nO-vI-bCg"/>
+                                            <constraint firstAttribute="height" constant="40" id="s0f-3s-Dj5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="score_hl.png" translatesAutoresizingMaskIntoConstraints="NO" id="mam-69-k6L">
+                                        <rect key="frame" x="100" y="5" width="50" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="YUd-xv-gcX"/>
+                                            <constraint firstAttribute="height" constant="40" id="apN-It-YJO"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sharing_qq.png" translatesAutoresizingMaskIntoConstraints="NO" id="JTf-Uh-Dzv">
+                                        <rect key="frame" x="150" y="5" width="50" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="55G-m7-XP6"/>
+                                            <constraint firstAttribute="width" constant="50" id="kA8-MY-gmV"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="mam-69-k6L" firstAttribute="leading" secondItem="5Zt-k8-MpF" secondAttribute="trailing" id="M7j-wW-yuV"/>
+                                    <constraint firstItem="5Zt-k8-MpF" firstAttribute="leading" secondItem="rBb-GT-Pf6" secondAttribute="trailing" id="VZQ-gt-o8e"/>
+                                    <constraint firstItem="5Zt-k8-MpF" firstAttribute="centerY" secondItem="IQ2-k4-jbd" secondAttribute="centerY" id="cFT-YT-gnZ"/>
+                                    <constraint firstItem="JTf-Uh-Dzv" firstAttribute="centerY" secondItem="IQ2-k4-jbd" secondAttribute="centerY" id="e4c-UI-qJC"/>
+                                    <constraint firstItem="rBb-GT-Pf6" firstAttribute="leading" secondItem="IQ2-k4-jbd" secondAttribute="leading" id="fds-C9-Z1E"/>
+                                    <constraint firstItem="rBb-GT-Pf6" firstAttribute="centerY" secondItem="IQ2-k4-jbd" secondAttribute="centerY" id="gmO-c8-2bh"/>
+                                    <constraint firstAttribute="trailing" secondItem="JTf-Uh-Dzv" secondAttribute="trailing" id="hSi-WL-JXp"/>
+                                    <constraint firstItem="JTf-Uh-Dzv" firstAttribute="leading" secondItem="mam-69-k6L" secondAttribute="trailing" id="huW-r7-Lfj"/>
+                                    <constraint firstAttribute="height" constant="50" id="tBu-ne-b4d"/>
+                                    <constraint firstItem="mam-69-k6L" firstAttribute="centerY" secondItem="IQ2-k4-jbd" secondAttribute="centerY" id="x3t-Xv-tbi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IQ2-k4-jbd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="816-2V-OuM"/>
+                            <constraint firstItem="IQ2-k4-jbd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="154" id="xE9-3k-YL4"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backView" destination="IQ2-k4-jbd" id="FpC-JL-QgP"/>
+                        <outlet property="firstConstraint" destination="2Op-MN-auq" id="xQf-eI-cFE"/>
+                        <outlet property="foutContraint" destination="kA8-MY-gmV" id="j9k-bh-Tok"/>
+                        <outlet property="image1" destination="rBb-GT-Pf6" id="KG7-6m-YML"/>
+                        <outlet property="image2" destination="5Zt-k8-MpF" id="tXl-tU-LWp"/>
+                        <outlet property="image3" destination="mam-69-k6L" id="p38-CW-znB"/>
+                        <outlet property="image4" destination="JTf-Uh-Dzv" id="6E4-0e-Yd0"/>
+                        <outlet property="secondContraint" destination="8nO-vI-bCg" id="Yog-N5-H2Y"/>
+                        <outlet property="thirdConstraint" destination="YUd-xv-gcX" id="Ida-GP-Aye"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.5" y="405.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="like-1-1.png" width="128" height="128"/>
+        <image name="naruto.png" width="60" height="60"/>
+        <image name="score_hl.png" width="22" height="22"/>
+        <image name="sharing_qq.png" width="64" height="64"/>
+    </resources>
+</document>

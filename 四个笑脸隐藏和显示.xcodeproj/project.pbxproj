@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69DBFA2C1CFD972900E668A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DBFA2B1CFD972900E668A9 /* main.m */; };
+		69DBFA2F1CFD972900E668A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DBFA2E1CFD972900E668A9 /* AppDelegate.m */; };
+		69DBFA321CFD972900E668A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DBFA311CFD972900E668A9 /* ViewController.m */; };
+		69DBFA351CFD972900E668A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DBFA331CFD972900E668A9 /* Main.storyboard */; };
+		69DBFA371CFD972900E668A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DBFA361CFD972900E668A9 /* Assets.xcassets */; };
+		69DBFA3A1CFD972900E668A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DBFA381CFD972900E668A9 /* LaunchScreen.storyboard */; };
+		69DBFA451CFD972900E668A9 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DBFA441CFD972900E668A9 /* _________Tests.m */; };
+		69DBFA501CFD972900E668A9 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DBFA4F1CFD972900E668A9 /* _________UITests.m */; };
+		69DBFA5E1CFD986E00E668A9 /* like-1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DBFA5D1CFD986E00E668A9 /* like-1-1.png */; };
+		69DBFA621CFDB2A200E668A9 /* sharing_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DBFA5F1CFDB2A200E668A9 /* sharing_qq@3x.png */; };
+		69DBFA631CFDB2A200E668A9 /* score_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DBFA601CFDB2A200E668A9 /* score_hl@3x.png */; };
+		69DBFA641CFDB2A200E668A9 /* naruto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DBFA611CFDB2A200E668A9 /* naruto@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69DBFA411CFD972900E668A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DBFA1F1CFD972900E668A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DBFA261CFD972900E668A9;
+			remoteInfo = "四个笑脸隐藏和显示";
+		};
+		69DBFA4C1CFD972900E668A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DBFA1F1CFD972900E668A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DBFA261CFD972900E668A9;
+			remoteInfo = "四个笑脸隐藏和显示";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69DBFA271CFD972900E668A9 /* 四个笑脸隐藏和显示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "四个笑脸隐藏和显示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DBFA2B1CFD972900E668A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69DBFA2D1CFD972900E668A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69DBFA2E1CFD972900E668A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69DBFA301CFD972900E668A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69DBFA311CFD972900E668A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69DBFA341CFD972900E668A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69DBFA361CFD972900E668A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69DBFA391CFD972900E668A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69DBFA3B1CFD972900E668A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DBFA401CFD972900E668A9 /* 四个笑脸隐藏和显示Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "四个笑脸隐藏和显示Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DBFA441CFD972900E668A9 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		69DBFA461CFD972900E668A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DBFA4B1CFD972900E668A9 /* 四个笑脸隐藏和显示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "四个笑脸隐藏和显示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DBFA4F1CFD972900E668A9 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		69DBFA511CFD972900E668A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DBFA5D1CFD986E00E668A9 /* like-1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-1-1.png"; sourceTree = "<group>"; };
+		69DBFA5F1CFDB2A200E668A9 /* sharing_qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sharing_qq@3x.png"; sourceTree = "<group>"; };
+		69DBFA601CFDB2A200E668A9 /* score_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "score_hl@3x.png"; sourceTree = "<group>"; };
+		69DBFA611CFDB2A200E668A9 /* naruto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "naruto@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69DBFA241CFD972900E668A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DBFA3D1CFD972900E668A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DBFA481CFD972900E668A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69DBFA1E1CFD972900E668A9 = {
+			isa = PBXGroup;
+			children = (
+				69DBFA291CFD972900E668A9 /* 四个笑脸隐藏和显示 */,
+				69DBFA431CFD972900E668A9 /* 四个笑脸隐藏和显示Tests */,
+				69DBFA4E1CFD972900E668A9 /* 四个笑脸隐藏和显示UITests */,
+				69DBFA281CFD972900E668A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69DBFA281CFD972900E668A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69DBFA271CFD972900E668A9 /* 四个笑脸隐藏和显示.app */,
+				69DBFA401CFD972900E668A9 /* 四个笑脸隐藏和显示Tests.xctest */,
+				69DBFA4B1CFD972900E668A9 /* 四个笑脸隐藏和显示UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69DBFA291CFD972900E668A9 /* 四个笑脸隐藏和显示 */ = {
+			isa = PBXGroup;
+			children = (
+				69DBFA2D1CFD972900E668A9 /* AppDelegate.h */,
+				69DBFA2E1CFD972900E668A9 /* AppDelegate.m */,
+				69DBFA301CFD972900E668A9 /* ViewController.h */,
+				69DBFA311CFD972900E668A9 /* ViewController.m */,
+				69DBFA5F1CFDB2A200E668A9 /* sharing_qq@3x.png */,
+				69DBFA601CFDB2A200E668A9 /* score_hl@3x.png */,
+				69DBFA611CFDB2A200E668A9 /* naruto@3x.png */,
+				69DBFA5D1CFD986E00E668A9 /* like-1-1.png */,
+				69DBFA331CFD972900E668A9 /* Main.storyboard */,
+				69DBFA361CFD972900E668A9 /* Assets.xcassets */,
+				69DBFA381CFD972900E668A9 /* LaunchScreen.storyboard */,
+				69DBFA3B1CFD972900E668A9 /* Info.plist */,
+				69DBFA2A1CFD972900E668A9 /* Supporting Files */,
+			);
+			path = "四个笑脸隐藏和显示";
+			sourceTree = "<group>";
+		};
+		69DBFA2A1CFD972900E668A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69DBFA2B1CFD972900E668A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69DBFA431CFD972900E668A9 /* 四个笑脸隐藏和显示Tests */ = {
+			isa = PBXGroup;
+			children = (
+				69DBFA441CFD972900E668A9 /* _________Tests.m */,
+				69DBFA461CFD972900E668A9 /* Info.plist */,
+			);
+			path = "四个笑脸隐藏和显示Tests";
+			sourceTree = "<group>";
+		};
+		69DBFA4E1CFD972900E668A9 /* 四个笑脸隐藏和显示UITests */ = {
+			isa = PBXGroup;
+			children = (
+				69DBFA4F1CFD972900E668A9 /* _________UITests.m */,
+				69DBFA511CFD972900E668A9 /* Info.plist */,
+			);
+			path = "四个笑脸隐藏和显示UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69DBFA261CFD972900E668A9 /* 四个笑脸隐藏和显示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DBFA541CFD972900E668A9 /* Build configuration list for PBXNativeTarget "四个笑脸隐藏和显示" */;
+			buildPhases = (
+				69DBFA231CFD972900E668A9 /* Sources */,
+				69DBFA241CFD972900E668A9 /* Frameworks */,
+				69DBFA251CFD972900E668A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "四个笑脸隐藏和显示";
+			productName = "四个笑脸隐藏和显示";
+			productReference = 69DBFA271CFD972900E668A9 /* 四个笑脸隐藏和显示.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69DBFA3F1CFD972900E668A9 /* 四个笑脸隐藏和显示Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DBFA571CFD972900E668A9 /* Build configuration list for PBXNativeTarget "四个笑脸隐藏和显示Tests" */;
+			buildPhases = (
+				69DBFA3C1CFD972900E668A9 /* Sources */,
+				69DBFA3D1CFD972900E668A9 /* Frameworks */,
+				69DBFA3E1CFD972900E668A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DBFA421CFD972900E668A9 /* PBXTargetDependency */,
+			);
+			name = "四个笑脸隐藏和显示Tests";
+			productName = "四个笑脸隐藏和显示Tests";
+			productReference = 69DBFA401CFD972900E668A9 /* 四个笑脸隐藏和显示Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69DBFA4A1CFD972900E668A9 /* 四个笑脸隐藏和显示UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DBFA5A1CFD972900E668A9 /* Build configuration list for PBXNativeTarget "四个笑脸隐藏和显示UITests" */;
+			buildPhases = (
+				69DBFA471CFD972900E668A9 /* Sources */,
+				69DBFA481CFD972900E668A9 /* Frameworks */,
+				69DBFA491CFD972900E668A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DBFA4D1CFD972900E668A9 /* PBXTargetDependency */,
+			);
+			name = "四个笑脸隐藏和显示UITests";
+			productName = "四个笑脸隐藏和显示UITests";
+			productReference = 69DBFA4B1CFD972900E668A9 /* 四个笑脸隐藏和显示UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69DBFA1F1CFD972900E668A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "宓珂璟";
+				TargetAttributes = {
+					69DBFA261CFD972900E668A9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					69DBFA3F1CFD972900E668A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 69DBFA261CFD972900E668A9;
+					};
+					69DBFA4A1CFD972900E668A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 69DBFA261CFD972900E668A9;
+					};
+				};
+			};
+			buildConfigurationList = 69DBFA221CFD972900E668A9 /* Build configuration list for PBXProject "四个笑脸隐藏和显示" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69DBFA1E1CFD972900E668A9;
+			productRefGroup = 69DBFA281CFD972900E668A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69DBFA261CFD972900E668A9 /* 四个笑脸隐藏和显示 */,
+				69DBFA3F1CFD972900E668A9 /* 四个笑脸隐藏和显示Tests */,
+				69DBFA4A1CFD972900E668A9 /* 四个笑脸隐藏和显示UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69DBFA251CFD972900E668A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DBFA631CFDB2A200E668A9 /* score_hl@3x.png in Resources */,
+				69DBFA621CFDB2A200E668A9 /* sharing_qq@3x.png in Resources */,
+				69DBFA5E1CFD986E00E668A9 /* like-1-1.png in Resources */,
+				69DBFA3A1CFD972900E668A9 /* LaunchScreen.storyboard in Resources */,
+				69DBFA371CFD972900E668A9 /* Assets.xcassets in Resources */,
+				69DBFA641CFDB2A200E668A9 /* naruto@3x.png in Resources */,
+				69DBFA351CFD972900E668A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DBFA3E1CFD972900E668A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DBFA491CFD972900E668A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69DBFA231CFD972900E668A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DBFA321CFD972900E668A9 /* ViewController.m in Sources */,
+				69DBFA2F1CFD972900E668A9 /* AppDelegate.m in Sources */,
+				69DBFA2C1CFD972900E668A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DBFA3C1CFD972900E668A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DBFA451CFD972900E668A9 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DBFA471CFD972900E668A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DBFA501CFD972900E668A9 /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69DBFA421CFD972900E668A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DBFA261CFD972900E668A9 /* 四个笑脸隐藏和显示 */;
+			targetProxy = 69DBFA411CFD972900E668A9 /* PBXContainerItemProxy */;
+		};
+		69DBFA4D1CFD972900E668A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DBFA261CFD972900E668A9 /* 四个笑脸隐藏和显示 */;
+			targetProxy = 69DBFA4C1CFD972900E668A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69DBFA331CFD972900E668A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DBFA341CFD972900E668A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69DBFA381CFD972900E668A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DBFA391CFD972900E668A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69DBFA521CFD972900E668A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69DBFA531CFD972900E668A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69DBFA551CFD972900E668A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "四个笑脸隐藏和显示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69DBFA561CFD972900E668A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "四个笑脸隐藏和显示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69DBFA581CFD972900E668A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "四个笑脸隐藏和显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/四个笑脸隐藏和显示.app/四个笑脸隐藏和显示";
+			};
+			name = Debug;
+		};
+		69DBFA591CFD972900E668A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "四个笑脸隐藏和显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/四个笑脸隐藏和显示.app/四个笑脸隐藏和显示";
+			};
+			name = Release;
+		};
+		69DBFA5B1CFD972900E668A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "四个笑脸隐藏和显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "四个笑脸隐藏和显示";
+			};
+			name = Debug;
+		};
+		69DBFA5C1CFD972900E668A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "四个笑脸隐藏和显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "四个笑脸隐藏和显示";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69DBFA221CFD972900E668A9 /* Build configuration list for PBXProject "四个笑脸隐藏和显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DBFA521CFD972900E668A9 /* Debug */,
+				69DBFA531CFD972900E668A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DBFA541CFD972900E668A9 /* Build configuration list for PBXNativeTarget "四个笑脸隐藏和显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DBFA551CFD972900E668A9 /* Debug */,
+				69DBFA561CFD972900E668A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69DBFA571CFD972900E668A9 /* Build configuration list for PBXNativeTarget "四个笑脸隐藏和显示Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DBFA581CFD972900E668A9 /* Debug */,
+				69DBFA591CFD972900E668A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69DBFA5A1CFD972900E668A9 /* Build configuration list for PBXNativeTarget "四个笑脸隐藏和显示UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DBFA5B1CFD972900E668A9 /* Debug */,
+				69DBFA5C1CFD972900E668A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69DBFA1F1CFD972900E668A9 /* Project object */;
+}
